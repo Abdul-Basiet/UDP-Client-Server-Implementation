@@ -3,7 +3,7 @@
 This project seeks to implement a simple UDP/TCP communication between Unity and IoT devices in a Mixed Reality set up. The main goal is to be able to control IoT devices from Unity so there would be series of implementations and updates to that effect. Each stage would be documented in details.
 [Unity](https://en.wikipedia.org/wiki/Unity_(game_engine)) is a cross-platform engine for developing games and applications on different platforms including mobile,consoles,desktop and the 3 realities now - Virtual Reality(VR), Mixed Reality(MR) and Augment Reality(AR).
 
-User Datagram Protocol(UDP)/Transmission Control Protocol(TCP) is a simple protocol at the transport layer of the Internet Protocol stack that makes the best effort to deliver datagrams to a remote host. It is a connectionless protocol, that is to say, it does not guarantee establishment of connection prior to communicating with the remote host. [RFC 768](https://tools.ietf.org/html/rfc768). However, TCP guarantees delivery of packet, ensures flow control and relaible as compared to UDP.[RFC 793](https://tools.ietf.org/html/rfc793#section-2.1)
+User Datagram Protocol(UDP)/Transmission Control Protocol(TCP) is a simple protocol at the transport layer of the Internet Protocol stack that makes the best effort to deliver datagrams to a remote host. It is a connectionless protocol, that is to say, it does not guarantee establishment of connection prior to communicating with the remote host [RFC 768](https://tools.ietf.org/html/rfc768). However, TCP guarantees delivery of packet, ensures flow control and relaible as compared to UDP [RFC 793](https://tools.ietf.org/html/rfc793#section-2.1).
 
 The initial scope of this project includes the setting up of UDP or TCP server on a remote host and a UDP client in unity, send a simple "Hello World!!!" from the latter to the former to test UDP connection. The main scripting language for the client side would be in C# since that is the main language in Unity now. Server side is scripted in Python in the mean time. Subsequent implementation might change in terms of the Server-side scripting.
  
@@ -147,10 +147,10 @@ public class SendUDP : MonoBehaviour
 
 ![GUI_1](https://github.com/Abdul-Basiet/UDP-Client-Server-Implementation/blob/master/GUI_1.JPG)
 
-*Fig 3: * UDP Server receives message, processed it and replies to the UDP Client
+*Fig 3: * UDP Server receives ***Hello World!!!*** message, processed it and replies to the UDP Client with ***Hey there, I got this!!!***
 
 
-![GUI_1](https://github.com/Abdul-Basiet/UDP-Client-Server-Implementation/blob/master/GUI_1.JPG)
+![GUI_2](https://github.com/Abdul-Basiet/UDP-Client-Server-Implementation/blob/master/PythonSvr.JPG)
 
 
 
