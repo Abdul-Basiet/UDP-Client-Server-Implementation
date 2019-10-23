@@ -139,6 +139,9 @@ public class SendUDP : MonoBehaviour
 }
 
 ```
-The GUI below has two components as mentioned earlier. The Input field - takes message and the Button labelled as **SendUDP** sends the message to the client upon a click.
+The GUI below has two components as mentioned earlier. The Input field - takes the message and the Button labelled **SendUDP** sends the message to the client upon a click.
+![GUI](https://github.com/Abdul-Basiet/UDP-Client-Server-Implementation/blob/master/GUI_UDPClient.JPG)
+
+1. UDP Client sends ***Hello World!!!*** to the UDP Server.
 ![GUI](https://github.com/Abdul-Basiet/UDP-Client-Server-Implementation/blob/master/GUI_UDPClient.JPG)
 
