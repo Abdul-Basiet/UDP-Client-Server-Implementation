@@ -145,7 +145,7 @@ public class SendUDP : MonoBehaviour
 
 *Fig 2: * UDP Client sends ***Hello World!!!*** to the UDP Server and receives a reply from the UDP server on the left - Debug Log.
 
-![GUI_1](https://github.com/Abdul-Basiet/UDP-Client-Server-Implementation/blob/master/GUI_1.JPG)
+![GUI_1](https://github.com/Abdul-Basiet/UDP-Client-Server-Implementation/blob/master/GUI_Hello.JPG)
 
 *Fig 3: * UDP Server receives ***Hello World!!!*** message, processed it and replies to the UDP Client with ***Hey there, I got this!!!***
 
