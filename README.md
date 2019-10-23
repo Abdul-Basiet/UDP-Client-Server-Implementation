@@ -1,7 +1,5 @@
 # UDP-Client-Server-Implementation
 
-# UDP-Client-Server-Implementation
-
 This project seeks to implement a simple UDP/TCP communication between Unity and IoT devices in a Mixed Reality set up. The main goal is to be able to control IoT devices from Unity so there would be series of implementations and updates to that effect. Each stage would be documented in details.
 [Unity](https://en.wikipedia.org/wiki/Unity_(game_engine)) is a cross-platform engine for developing games and applications on different platforms including mobile,consoles,desktop and the 3 realities now - Virtual Reality(VR), Mixed Reality(MR) and Augment Reality(AR).
 
